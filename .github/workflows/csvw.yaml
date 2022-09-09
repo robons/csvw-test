@@ -20,4 +20,4 @@ jobs:
           # Boolean indicating whether the outputs should be commited to the out folder (default is true).
           commit-outputs: false
           # Boolean indicating whether the outputs should be published to GitHub Pages (default is true).
-          publish-to-gh-pages: false
+          publish-to-gh-pages: true

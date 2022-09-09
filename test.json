@@ -7,7 +7,7 @@
             "from_template": "year"
         },
         "Cost (£)": {
-            "type": "observations",
+            "type": "observations", 
             "unit": {
                 "label": "Pounds Sterling (GBP)"
             },
