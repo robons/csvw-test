@@ -1,0 +1,19 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Some dataset",
+    "description": "Some dataset or something.",
+    "columns": {
+        "Year": {
+            "from_template": "year"
+        },
+        "Cost (£)": {
+            "type": "observations",
+            "unit": {
+                "label": "Pounds Sterling (GBP)"
+            },
+            "measure": {
+                "label": "Cost"
+            }
+        }
+    }
+}
