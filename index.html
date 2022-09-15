@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h3>CSV-Ws generated are as below. The latest commit id is 2cf8e619495f8a2ea3d07a3db12a81ec7e51c419.</h3>
+    <div id="files-container"></div>
+    <script type="text/javascript">
+      var html_str = "<ul>";
+      var files = ",./out/afolder/test/year.table.json,./out/afolder/test/some-dataset.csv-metadata.json_inspect_output.txt,./out/afolder/test/area.table.json,./out/afolder/test/some-dataset.csv-metadata.json,./out/afolder/test/some-dataset.csv,./out/afolder/test/year.csv,./out/afolder/test/area.csv-metadata.json,./out/afolder/test/area.csv-metadata.json_inspect_output.txt,./out/afolder/test/area.csv,./out/afolder/test/year.csv-metadata.json_inspect_output.txt,./out/afolder/test/year.csv-metadata.json".split(',');
+      files.shift()
+      files.sort()
+      files.forEach(function(file) {
+        file = file.replace("./","")
+        link = "https://robons.github.io/csvw-test/"+file
+        html_str += "<li>"+"<a href='"+ link + "'>"+file+"</a></li>";
+      });
+      html_str += "</ul>";
+      document.getElementById("files-container").innerHTML = html_str;
+    </script>
+  </body>
+</html>
