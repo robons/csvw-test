@@ -1,0 +1,49 @@
+
+- This file is a code list.
+
+- The code list has the following catalog metadata:
+        - Title: Area
+        - Label: Area
+        - Issued: 2022-09-15T16:45:32.923310
+        - Modified: 2022-09-15T16:45:32.923310
+        - License: None
+        - Creator: None
+        - Publisher: None
+        - Landing Pages: None
+        - Themes: None
+        - Keywords: None
+        - Contact Point: None
+        - Identifier: Area
+        - Comment: None
+        - Description: None
+        
+
+- The code list has the following dataset information:
+        - Number of Concepts: 8
+        - Number of Duplicates: 0
+        - Concepts: 
+Uri Identifier         Label      Notation  Parent Uri Identifier  Sort Priority  Description
+      carlisle      Carlisle      carlisle                    NaN              0          NaN
+    colchester    Colchester    colchester                    NaN              1          NaN
+       halifax       Halifax       halifax                    NaN              2          NaN
+     lancaster     Lancaster     lancaster                    NaN              3          NaN
+        london        London        london                    NaN              4          NaN
+   northampton   Northampton   northampton                    NaN              5          NaN
+       norwich       Norwich       norwich                    NaN              6          NaN
+ wolverhampton Wolverhampton wolverhampton                    NaN              7          NaN
+        
+
+- The code list has the following concepts information:
+        - Concepts hierarchy depth: 1
+        - Concepts hierarchy:
+root
+├── Carlisle
+├── Colchester
+├── Halifax
+├── Lancaster
+├── London
+├── Northampton
+├── Norwich
+└── Wolverhampton
+
+        

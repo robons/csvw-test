@@ -1,0 +1,60 @@
+
+- This file is a data cube.
+
+- The data cube has the following catalog metadata:
+        - Title: Some dataset
+        - Label: Some dataset
+        - Issued: 2022-09-15T16:45:32.927159
+        - Modified: 2022-09-15T16:45:32.927159
+        - License: None
+        - Creator: None
+        - Publisher: None
+        - Landing Pages: None
+        - Themes: None
+        - Keywords: None
+        - Contact Point: None
+        - Identifier: Some dataset
+        - Comment: None
+        - Description: Some dataset or something.
+        
+
+- The data cube has the following data structure definition:
+        - Dataset Label: Some dataset
+        - Number of Components: 5
+        - Components:
+                                                   Property Property Label Property Type Column Title  Required
+                            some-dataset.csv#dimension/year           Year     Dimension         Year      True
+                            some-dataset.csv#dimension/area           Area     Dimension         Area      True
+               http://purl.org/linked-data/cube#measureType                    Dimension                   True
+http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure                    Attribute                   True
+                              some-dataset.csv#measure/cost           Cost       Measure     Cost (£)      True
+        - Columns where suppress output is true: 
+		-- Uri Identifier
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 2
+        - Code Lists:
+         Code List Code List Label Columns Used In
+area.csv#code-list            Area            Area
+year.csv#code-list            Year            Year
+
+- The data cube has the following dataset information:
+        - Number of Observations: 8
+        - Number of Duplicates: 0
+        - Observations: 
+ Year          Area  Cost (£)
+ 2010 wolverhampton       2.3
+ 2010      carlisle       2.1
+ 2012       halifax       3.5
+ 2022   northampton       6.7
+ 2021     lancaster       6.5
+ 2001        london       1.9
+ 1997    colchester       2.3
+ 1995       norwich       1.7
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+Measure                  Unit  Count
+   Cost Pounds Sterling (GBP)      8
+        
